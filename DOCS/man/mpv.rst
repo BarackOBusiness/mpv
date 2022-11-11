@@ -39,9 +39,12 @@ LIRC support - configure remotes as input devices instead).
 
 See the ``--input-`` options for ways to customize it.
 
-The following listings are not necessarily complete. See ``etc/input.conf`` for
-a list of default bindings. User ``input.conf`` files and Lua scripts can
-define additional key bindings.
+The following listings are not necessarily complete. See ``etc/input.conf``
+in the mpv source files for a list of default bindings. User ``input.conf``
+files and Lua scripts can define additional key bindings.
+
+See `COMMAND INTERFACE`_ and `Key names`_ sections for more details on
+configuring keybindings.
 
 See also ``--input-test`` for interactive binding details by key, and the
 `stats`_ built-in script for key bindings list (including print to terminal).
@@ -124,6 +127,9 @@ m
 
 \#
     Cycle through the available audio tracks.
+
+E
+    Cycle through the available Editions.
 
 f
     Toggle fullscreen (see also ``--fs``).
